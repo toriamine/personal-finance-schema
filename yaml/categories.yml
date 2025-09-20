@@ -1,0 +1,278 @@
+expenses:
+  - id: 1
+    name_ru: "Продукты и питание"
+    sublevel_1:
+      - "Продукты (Grocery)"
+      - "Рестораны (Restaurants)"
+      - "Кафе/Фаст-фуд (Coffee & Fast Food)"
+    sublevel_2:
+      - "Доставка еды"
+      - "Кофейни"
+  - id: 2
+    name_ru: "Жильё"
+    sublevel_1:
+      - "Аренда/Ипотека (Rent/Mortgage)"
+      - "Коммунальные (Utilities)"
+      - "Ремонт/Уход (Maintenance)"
+    sublevel_2:
+      - "Электричество"
+      - "Вода"
+      - "Сервис"
+      - "УК"
+  - id: 3
+    name_ru: "Транспорт"
+    sublevel_1:
+      - "Топливо (Fuel)"
+      - "Общественный транспорт (Public Transport)"
+      - "Такси/Каршеринг (Ride-hailing)"
+      - "Авто-обслуживание"
+    sublevel_2:
+      - "Шины"
+      - "ТО"
+      - "Парковка"
+  - id: 4
+    name_ru: "Связь и интернет"
+    sublevel_1:
+      - "Мобильная связь (Mobile)"
+      - "Интернет-провайдер (ISP)"
+      - "TV/Streaming"
+    sublevel_2:
+      - "Netflix"
+      - "Spotify"
+  - id: 5
+    name_ru: "Здоровье и спорт"
+    sublevel_1:
+      - "Медуслуги (Medical)"
+      - "Аптека (Pharmacy)"
+      - "Страховка (Insurance)"
+      - "Фитнес/Спортзал (Gym)"
+    sublevel_2:
+      - "Стоматология"
+      - "Анализы"
+  - id: 6
+    name_ru: "Одежда и обувь"
+    sublevel_1:
+      - "Одежда (Clothes)"
+      - "Обувь (Shoes)"
+      - "Аксессуары (Accessories)"
+      - "Химчистка (Laundry)"
+    sublevel_2: []
+  - id: 7
+    name_ru: "Развлечения и досуг"
+    sublevel_1:
+      - "Кино/Театр (Movies/Theatre)"
+      - "Игры/Хобби (Games/Hobbies)"
+      - "Книги/Пресса (Books)"
+      - "Подписки (Subscriptions)"
+    sublevel_2:
+      - "Steam"
+      - "Xbox Game Pass"
+  - id: 8
+    name_ru: "Образование и развитие"
+    sublevel_1:
+      - "Курсы/Обучение (Courses)"
+      - "Детский сад/Школа (Childcare/School)"
+      - "Книги учебные (Study Books)"
+    sublevel_2:
+      - "Онлайн-курсы"
+      - "Репетитор"
+  - id: 9
+    name_ru: "Путешествия"
+    sublevel_1:
+      - "Билеты (Tickets)"
+      - "Проживание (Accommodation)"
+      - "Туры/Экскурсии (Tours)"
+      - "Страховка путешествий (Travel Insurance)"
+    sublevel_2:
+      - "Виза"
+      - "Багаж"
+  - id: 10
+    name_ru: "Дом и быт"
+    sublevel_1:
+      - "Бытовые товары (Supplies)"
+      - "Мебель (Furniture)"
+      - "Техника (Appliances)"
+      - "Услуги хозяйству (Cleaning Services)"
+    sublevel_2:
+      - "Моющие средства"
+      - "Мелкий ремонт"
+  - id: 11
+    name_ru: "Домашние животные"
+    sublevel_1:
+      - "Корм (Food)"
+      - "Ветклиника (Vet)"
+      - "Аксессуары (Accessories)"
+      - "Стрижка/Уход (Grooming)"
+    sublevel_2: []
+  - id: 12
+    name_ru: "Подарки и благотворительность"
+    sublevel_1:
+      - "Подарки (Gifts)"
+      - "Пожертвования (Donations)"
+      - "Праздники (Celebrations)"
+    sublevel_2: []
+  - id: 13
+    name_ru: "Финансовые обязательства"
+    sublevel_1:
+      - "Платёж по кредиту (Loan Payment)"
+      - "Проценты (Interest)"
+      - "Комиссии (Fees)"
+    sublevel_2:
+      - "Погашение карты"
+  - id: 14
+    name_ru: "Налоги и сборы"
+    sublevel_1:
+      - "Подоходный налог (Income Tax)"
+      - "Транспортный налог (Vehicle Tax)"
+      - "Госпошлины (Government Fees)"
+    sublevel_2: []
+  - id: 15
+    name_ru: "Прочие расходы"
+    sublevel_1:
+      - "Всё, что не попало в другие категории"
+    sublevel_2: []
+
+income:
+  - id: 1
+    name_ru: "Трудовые доходы"
+    type: income
+    sublevel_1:
+      - "Зарплата"
+      - "Премии"
+      - "Подработка"
+  - id: 2
+    name_ru: "Пассивные доходы"
+    type: income
+    sublevel_1:
+      - "Аренда недвижимости"
+      - "Дивиденды"
+      - "Проценты по вкладам"
+  - id: 3
+    name_ru: "Предпринимательские доходы"
+    type: income
+    sublevel_1:
+      - "Прибыль от бизнеса"
+      - "Самозанятость (фриланс)"
+  - id: 4
+    name_ru: "Социальные выплаты"
+    type: income
+    sublevel_1:
+      - "Пенсия"
+      - "Пособия"
+      - "Стипендия"
+  - id: 5
+    name_ru: "Прочие доходы"
+    type: income
+    sublevel_1:
+      - "Подарки (денежные)"
+      - "Выигрыши"
+      - "Возврат долга"
+      - "Продажа имущества"
+
+goals:
+  - id: 1
+    name_ru: "Жилье"
+    type: goal
+    sublevel_1:
+      - "Покупка квартиры"
+      - "Ремонт дома"
+      - "Первоначальный взнос (ипотека)"
+  - id: 2
+    name_ru: "Транспорт"
+    type: goal
+    sublevel_1:
+      - "Покупка автомобиля"
+      - "Покупка мотоцикла"
+  - id: 3
+    name_ru: "Образование"
+    type: goal
+    sublevel_1:
+      - "Высшее образование"
+      - "Курсы повышения квалификации"
+      - "Образование детей"
+  - id: 4
+    name_ru: "Резервный фонд"
+    type: goal
+    sublevel_1:
+      - "Резерв на 6 месяцев"
+      - "Непредвиденные расходы"
+  - id: 5
+    name_ru: "Пенсия и инвестиции"
+    type: goal
+    sublevel_1:
+      - "Пенсионные накопления"
+      - "Инвестиционный портфель"
+  - id: 6
+    name_ru: "Отдых и развлечения"
+    type: goal
+    sublevel_1:
+      - "Отпуск (путешествие)"
+      - "Свадьба"
+      - "Путешествие мечты"
+  - id: 7
+    name_ru: "Крупные покупки"
+    type: goal
+    sublevel_1:
+      - "Бытовая техника"
+      - "Новая мебель"
+      - "Электроника"
+
+savings:
+  - id: 1
+    name_ru: "Банковские сбережения"
+    type: saving
+    sublevel_1:
+      - "Срочный вклад"
+      - "Накопительный счет"
+  - id: 2
+    name_ru: "Наличные сбережения"
+    type: saving
+    sublevel_1:
+      - "Домашняя копилка"
+      - "Заначка"
+  - id: 3
+    name_ru: "Инвестиции"
+    type: saving
+    sublevel_1:
+      - "Брокерский счет"
+      - "ПИФ"
+      - "Драгоценные металлы"
+  - id: 4
+    name_ru: "Пенсионные накопления"
+    type: saving
+    sublevel_1:
+      - "Пенсионный счет"
+      - "Страховой полис (накопительный)"
+  - id: 5
+    name_ru: "Прочие сбережения"
+    type: saving
+    sublevel_1:
+      - "Валютные накопления"
+      - "Криптовалюта"
+
+debts:
+  - id: 1
+    name_ru: "Банковские кредиты"
+    type: debt
+    sublevel_1:
+      - "Ипотека"
+      - "Автокредит"
+      - "Потребительский кредит"
+  - id: 2
+    name_ru: "Кредитные карты"
+    type: debt
+    sublevel_1:
+      - "Кредитная карта 1"
+      - "Кредитная карта 2"
+  - id: 3
+    name_ru: "Частные займы"
+    type: debt
+    sublevel_1:
+      - "Долг другу"
+      - "Долг родственнику"
+  - id: 4
+    name_ru: "Прочие кредиты"
+    type: debt
+    sublevel_1:
+      - "Микрозайм"
+      - "Рассрочка"
